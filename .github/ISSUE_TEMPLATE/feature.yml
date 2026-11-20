@@ -1,0 +1,19 @@
+name: Feature request
+description: Something Struxtor or struxtor-harness could do.
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Struxtor (the web app)
+        - struxtor-harness (on my computer)
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you would like, and what it would let you do
+    validations:
+      required: true

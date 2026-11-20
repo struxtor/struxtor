@@ -1,0 +1,31 @@
+name: Bug report
+description: Something in Struxtor or struxtor-harness does not work as it should.
+labels: [bug]
+body:
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - Struxtor (the web app)
+        - struxtor-harness (on my computer)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+      description: The steps that lead to it, if you know them.
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: Output of struxtor-harness doctor (harness problems)
+      description: It names the harness version and the server, and holds no token, but it shows folder paths; check them before you submit.
+      render: text
+  - type: input
+    id: system
+    attributes:
+      label: System and browser
+      placeholder: e.g. Ubuntu 24.04, Firefox 140

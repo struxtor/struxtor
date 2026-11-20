@@ -1,0 +1,6 @@
+This repository holds issue reports for Struxtor and struxtor-harness. It holds no source code.
+Its own files (this notice, the README and the issue forms) are Copyright (c) 2026 ITLN.
+All rights reserved.
+
+Struxtor and struxtor-harness are proprietary. struxtor-harness comes with its own licence, in
+its npm package; the Struxtor web service is used under its own terms.
